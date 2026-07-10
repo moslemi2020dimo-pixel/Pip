@@ -1,7 +1,7 @@
 -- PIP Database Schema
 -- Version 0.1
 
-CREATE TABLE Assets (
+CREATE TABLE Subjects (
     id INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
     category TEXT,
