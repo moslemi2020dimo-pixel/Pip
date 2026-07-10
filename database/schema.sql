@@ -1,11 +1,9 @@
--- PIP Database Schema
--- Version 0.1
-
 CREATE TABLE Subjects (
     id INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
-    category TEXT,
+    subject_type TEXT NOT NULL,
     manufacturer TEXT,
     model TEXT,
+    metadata TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
